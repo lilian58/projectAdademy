@@ -1,0 +1,142 @@
+body{
+    margin: 0;
+    background-color: black;
+    font-size: 22px;
+    opacity: 0.9;
+    color:seashell;
+    font-family: Helvetica;
+}
+
+/*Header*/
+header{
+    height: 69px;
+    width: 100%;
+    background-color: black;
+    border-bottom: 1px solid seashell;
+    position: fixed;
+}
+
+.navbar{
+    display: flex;
+    justify-content: flex-end;
+    justify-content: space-between;
+}
+.navbar img{
+    height: 50px;
+    margin-left: 10px;   
+}
+
+
+.position{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.position li {
+    text-decoration: underline;
+    list-style:none;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.position li a{
+    color:white;
+}
+
+/*section -- mission */
+.mission{
+    height: 700px;
+    background-image: url('../assets/img/img-mission-background.jpg');
+    display: flex;
+}
+
+.div{
+    background-color: black;
+    width: 1200px;
+    text-align: center;
+    height: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+/*section -- feature tea */
+.feature{
+    margin-top: 80px;
+    width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+    height: 700px;
+}
+
+.feature h2, h4{
+    text-align: center;
+}
+
+.super{
+    width: 1000px;
+    display: flex;
+    align-content: center;
+    height: 700px;
+}
+
+#container{
+    width: 1000px;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#container img{
+    height: 200px;
+    width: 300px;
+}
+
+#container .Tea{
+    margin: 0px 15px 0px 15px;
+}
+
+#container h4{
+    margin-top: 10px;
+}
+
+/*section -- location */
+#location{
+    background-image: url('../assets/img/img-locations-background.jpg');
+    height: 500px;
+    width: 1000px;
+    margin: 0 auto;
+    display: block;
+}
+
+.location h2, h3{
+    text-align: center;
+}
+
+#div0{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#div0 div{
+    background-color: black;
+    width: auto;
+    margin: 40px;
+    height: 300px;
+    opacity: 1;
+    padding: 0 15px 0 15px;
+    line-height: 1.5;
+}
+
+/* footer */
+
+#footer{
+    height: 200px;
+    text-align: center;
+}
+
+#footer h6{
+    text-align: left;
+    margin:0 0 0 20px ;
+}
